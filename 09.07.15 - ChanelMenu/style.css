@@ -1,0 +1,90 @@
+.header ul.right{
+	float: left;
+}
+
+.header{
+	padding: 19px 0;
+	background-color: #FFF;
+	width: 100%;
+	position: relative;
+}
+
+.dropdown ul{
+	top: 72px;
+}
+
+.dropdown span{
+	color: #999;
+	font: .8em Arial,Helvetica,sans-serif;
+  	font-family: textbook,arial,helvetica,sans-serif;
+  	font-size: 100%;
+}
+
+.dropdown span:hover{
+  	color: red;
+}
+
+.header ul.head li.dropdown {
+	margin-right: 40px;
+}
+
+.header ul.head li.dropdown span{
+	padding-bottom: 19px;
+}
+
+.header ul.head li.dropdown span:hover{
+	border-bottom: 2px solid red;
+}
+
+#sidebar {
+	top: 0px;
+}
+
+.header ul.head li:first-child {
+  	width: 0;
+}
+
+#sidebar {
+	padding-top: 10px;
+	background-color: #363636;
+}
+
+#sidebar li > div a{
+	background-color: #363636;
+}
+
+#sidebar li > div a:hover, 
+#sidebar li > div a.title:hover {
+  	background-color: transparent;
+  	color: #FFFFFF;
+}
+
+#sidebar li a {
+	color: #989493;
+	font-size: 13px;
+}
+
+#sidebar li > div a:hover, #sidebar li > div a.title:hover {
+  	background-color: transparent;
+  	color: #FFFFFF;
+}
+
+#sidebar li.closed > div a.title {
+  	background: url('../images/templates/default.folder_closed.gif') no-repeat left #363636;
+}
+
+#sidebar li.open > div a.title {
+  	background: url('../images/templates/default.folder_open.gif') no-repeat left #363636;
+}
+
+li.current a{
+	color: #FFF;
+}
+
+#sidebar .lvl1 div.statediv {
+	margin-left: 9px;
+}
+
+#sidebar li{
+	padding-left: 9px;
+}

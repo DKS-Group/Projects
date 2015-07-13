@@ -1,0 +1,708 @@
+/* FONTS start */
+@font-face {
+    font-family: Kankin;
+    src: url(fonts/Kankin.ttf);
+
+    font-family: PTSansBold; 
+    src: url(fonts/PTSansBold.woff); 
+    /* font-family: sans-serif; */ 
+
+    font-family: MyriadPro; 
+    src: url(fonts/MyriadPro-Regular.otf);
+
+    font-family: SitkaB; 
+    src: url(fonts/SitkaB.ttc);
+
+}
+/* FONTS end */
+
+/*DELETE AFTER END start*/
+body{
+	/*background-image: url(images/Maket_sayta121.jpg);*/
+}
+/*DELETE AFTER END end*/
+
+body{
+  margin: 0;
+}
+
+body > div {
+	width: 100%;
+}
+
+.orange{
+  color: #FF9900;
+}
+
+.header .site-name{
+	font-size: 72pt;
+  	font-family: Kankin;
+  	position: relative;
+  	top: 9px;
+  	left: 4px;
+}
+
+.header .contacts{
+	display: inline-block;
+	position: absolute;
+  	right: 0;
+  	top: 7px;
+}
+
+.header .contacts img{
+	float: left;
+	position: relative;
+  	top: 6px;
+  	left: -7px;
+}
+
+.header .contacts .phone{
+	display: inline-block;
+}
+
+.header .contacts .phone a{
+	text-decoration: none;
+  	border-bottom: 1px solid #ff9900;
+}
+
+.header .contacts .number{
+	  font-family: MyriadPro;
+  	font-size: 30.34pt;
+  	position: relative;
+  	top: 8px;
+}
+
+.header .contacts .order{
+	font-size: 17.41pt;
+	position: relative;
+	left: 42px;
+	top: 7px;
+	font-family: sans-serif;
+}
+
+.promo{
+  background: url(images/background-1.jpg) 100% 1% no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.promo > img{
+  width: 100%;
+}
+
+.promo div.list{
+  width: 60%;
+  float: left;
+}
+
+.promo ul{
+  font-family: MyriadPro;
+  list-style-image: url(images/marker.png);
+  position: relative;
+  top: 4px;
+  left: 29px;
+  font-size: 25.3pt;
+  line-height: 35.5pt;
+  padding-left: 45px;
+  
+}
+
+.promo ul.second-list{
+  top: -10px;
+  line-height: 20.5pt;
+}
+
+.promo ul li div{
+  display: inline-flex;
+  text-align: center;
+}
+
+.promo ul.second-list li.first-element{
+  margin-bottom: 11pt;
+}
+
+.promo ul.second-list li.second-element{
+  margin-bottom: 26pt;
+}
+
+.promo ul.second-list li.third-element{
+  line-height: 26pt
+}
+
+.promo div img{
+  top: 6px;
+  right: -19px;
+  position: relative;
+}
+
+.form .form-title{
+  margin-top: 4px;
+  margin-bottom: 1px;
+  padding-top: 12px;
+  padding-bottom: 29px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.form .form-title span{
+  font-family: MyriadPro;
+  font-size: 18pt;
+}
+
+.form .form-body{
+  width: 100%;
+  background: url(images/background-2.jpg) 100% 1% no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.form .form-content{
+  text-align: center;
+  width: 398px;
+  height: 374px;
+  margin-top: 36px;
+  background: url(images/form-background.png) 100% 1% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  left: 47%;
+  position: relative;
+}
+
+.form .form-footer{
+  height: 60px;
+  width: 100%;
+  background: url(images/form-footer-background.png) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.form .form-footer{
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.form .form-footer div{
+  display: inline-block;
+  position: absolute;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 16px;
+  font-weight: 100;
+}
+
+.form .form-footer div.email{
+  right: 0;
+}
+
+.form-content .form-name{
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+
+.form-content .form-name span{
+  font-family: Kankin;
+  font-size: 38.7px;  
+}
+
+.form-content input{
+  margin-bottom: 18px;
+  width: 90%;
+  font-size: 22px;
+  font-style: italic;
+  font-family: sans-serif;
+  border-radius: 10px;
+  padding: 18px;
+  border: none;
+
+}
+
+.form-content input.button{
+  cursor: pointer;
+  color: #fff;
+  margin-top: 26px;
+  background: linear-gradient(to top, #cc3300, #ff3333);
+}
+
+.cooperation{
+  background: url(images/background-3.jpg) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.cooperation .cooperation-title{
+  padding-top: 38px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 44.85px;
+}
+
+.cooperation .carousel-control .glyphicon-chevron-right:before{
+  content: " ";
+  display:block;
+  background:url('images/arrow-right.png') no-repeat;
+  width:49px;
+  height:57px;
+}
+.cooperation .carousel-control .glyphicon-chevron-left:before{
+  content: " ";
+  display:block;
+  background:url('images/arrow-left.png') no-repeat;
+  width:49px;
+  height:57px;
+}
+
+.cooperation .carousel-control.left, .carousel-control.right{ 
+background: none !important; 
+filter: progid:none !important; 
+}
+
+.cooperation .carousel-inner img{
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cooperation .slider{
+  padding-bottom: 75px;
+}
+
+.how-it-works .title{
+  padding-top: 38px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 49.25px;
+}
+
+.how-it-works .content .you, .how-it-works .content .we, .how-it-works .content div.images img{
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.how-it-works .content .we{
+  width: 45%;
+  float: right;
+}
+
+.how-it-works .content .you div, .how-it-works .content .we div{
+  font-size: 17.86px;
+  line-height: 18px;
+}
+
+.how-it-works .content .you .main, .how-it-works .content .we .main{
+  top: 10px;
+  position: relative;
+  font-size: 49.25px;
+  font-style: italic;
+}
+
+.how-it-works .content .we .main{
+  margin-bottom: 72px;
+}
+
+.how-it-works .content .we .first{
+  margin-bottom: 28px;
+}
+
+.how-it-works .content .we .second{
+  margin-bottom: 53px;
+}
+
+.how-it-works .content .we .third{
+  margin-bottom: 19px;
+}
+
+.how-it-works .content .you .main{
+  margin-bottom: 56px;
+}
+
+.how-it-works .content .you .first{
+  margin-bottom: 42px;
+}
+
+.how-it-works .content .you .second{
+  margin-bottom: 43px;
+}
+
+.how-it-works .content .you .third{
+  margin-bottom: 38px;
+}
+
+.how-it-works .content div.images :first-child{
+  margin-right: 8px;
+  padding-left: 16px;
+}
+
+.how-it-works .content div.images :last-child{
+  margin-left: 8px;
+  padding-right: 16px;
+}
+
+.how-it-works .content .you{
+  text-align: right;
+}
+
+.how-it-works .content .you{
+   float: left;
+   width: 45%;
+}
+.how-it-works .content .images{
+   float: left;
+   width: 120px;
+}
+
+.how-it-works .footer{
+  display: inline-block;
+  margin-bottom: 45px;
+}
+
+.how-it-works .footer div{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 100px;
+}
+
+.how-it-works .footer div{
+  margin-top: 54px;
+  float: left;
+}
+
+.how-it-works .footer :first-child{
+    padding-top: 30px;
+}
+
+.how-it-works .footer .button{
+  font-size: 24px;
+  float: left;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 24px;
+  border-radius: 10px;
+  border: none;
+  padding: 19px 90px;
+  background: linear-gradient(to top, #cc3300, #ff3333);
+}
+
+.steps{
+  background: url(images/background-4.jpg) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.steps .title{
+  padding-top:42px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 49.25px;
+}
+
+.form-content .form{
+  top: 55px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 36%;
+  background-color: #FF9900;
+  position: relative;
+  left: 32%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.our-works{
+  margin-top: 85px;
+  background: url(images/background-5.jpg) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.our-works .title{
+  padding-top: 50px;
+  padding-bottom: 90px;
+  text-align: center;
+  font-family: SitkaB;
+  font-size: 58.93px;
+  color: #fff;
+}
+.our-works .carousel-inner > .item.next,
+  .our-works .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(33%, 0, 0);
+            transform: translate3d(33%, 0, 0);
+  }
+  .our-works .carousel-inner > .item.prev,
+  .our-works .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(-33%, 0, 0);
+            transform: translate3d(-33%, 0, 0);
+  }
+  .our-works .carousel-inner > .item.next.left,
+  .our-works .carousel-inner > .item.prev.right,
+  .our-works .carousel-inner > .item.active {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+
+.our-works .carousel-inner .active.left  { left: -33%;             }
+.our-works .carousel-inner .active.right { left: 33%;              }
+.our-works .carousel-inner .next         { left: 33%               }
+.our-works .carousel-inner .prev         { left: -33%              }
+.our-works .carousel-control.left        { background-image: none; }
+.our-works .carousel-control.right       { background-image: none; }
+
+.our-works .slider-second{
+  padding-bottom: 200px;
+}
+
+.responses .title{
+  padding-top: 56px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 52.31px;
+}
+
+.responses .row{
+  margin-bottom: 15px;
+}
+
+.map .title{
+  padding-top: 41px;
+  padding-bottom: 56px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 52.31px;
+}
+
+.map .content, .map .content iframe{
+  width: 100%;
+}
+
+.remind .title{
+  padding-top: 38px;
+  padding-bottom: 28px;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 36px;
+}
+
+.remind .content{
+  background: url(images/background-6.jpg) 100% 1% no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: Myriad;
+  font-size: 48px;
+  height: 800px;
+}
+
+.remind .form-body{
+  position: relative;
+  top: -322px;
+}
+
+
+.remind .form-content{
+  color: #000;
+  text-align: center;
+  width: 398px;
+  height: 374px;
+  margin-top: 36px;
+  background: url(images/form-background.png) 100% 1% no-repeat;
+  background-size: cover;
+  display: inline-block;
+  left: 47%;
+  position: relative;
+}
+
+.remind .form-footer{
+  height: 60px;
+  width: 100%;
+  background: url(images/form-footer-background.png) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.remind .form-footer{
+  font-family: sans-serif;
+  font-size: 24px;
+  position: relative;
+  top: -322px;
+}
+
+.remind .form-footer div{
+  display: inline-block;
+  position: absolute;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 16px;
+  font-weight: 100;
+}
+
+.remind .form-footer div.email{
+  right: 0;
+}
+
+.remind .content .first, .remind .content .second{
+  padding-left: 66px;
+}
+
+.remind .content .third{
+  padding-left: 20%;
+}
+.timer-block{
+  text-align: center;
+  display: block;
+  width: 44%;
+  position: relative;
+  left: 18px;
+  top: 66px;
+}
+
+.timer{
+  padding: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 58px;
+  border-radius: 17px;
+  background-color: #FFF;
+}
+
+.remind .first, .remind .third {
+  position: relative;
+  left: 200%;
+  display: none;
+
+}
+
+.remind .second{
+  position: relative;
+  left: -100%;
+  display: none;
+}
+
+.partner{
+  background: url(images/background-7.jpg) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.partner .title{
+  padding-top: 25px;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: Kankin;
+  font-size: 55.17px;
+}
+
+.partner .menu{
+  text-align: center;
+}
+
+.partner .menu div{
+  cursor: pointer;
+  font-family: Kankin;
+  font-size: 34.17px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  padding: 5px 16px;
+}
+
+.partner .dialog{
+  margin-top: 10px;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  padding: 15px 30px;
+  width: 529px;
+  height: 150px;
+  background: url(images/dialog.png) 100% 1% no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 650px;
+}
+
+.partner .dialog span{
+  display: none;
+}
+
+.partner .want{
+  font-style: italic;
+  width: 40%;
+  margin-left: 54%;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 30.47px;
+  text-align: center;
+
+}
+
+.partner .button{
+  margin-bottom: 72px;
+  margin-top: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 24px;
+  border-radius: 10px;
+  border: none;
+  padding: 19px 90px;
+  background: linear-gradient(to top, #cc3300, #ff3333);
+}
+
+.steps .steps-content{
+  text-align: center;
+}
+
+.steps .steps-text-1 div, .steps .steps-text-2 div{
+  margin-left: 15px;
+  display: inline-block;
+  text-align: center;
+  font-family: Myriad;
+  font-size: 16.85px;
+  cursor: pointer;
+}
+
+.step-images .up div{
+  padding-top: 7px;
+  padding-left: 62px;
+  width: 149px;
+  height: 103px;
+  background: url(images/up-step.png) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.step-images .down div{
+  padding-top: 26px;
+  padding-left: 62px;
+  width: 149px;
+  height: 103px;
+  background: url(images/down-step.png) 100% 1% no-repeat;
+  background-size: cover;
+}
+
+.step-images .up div, .step-images .down div{
+  cursor: pointer;
+  font-family: Myriad;
+  font-size: 38px;
+  color: #FFF;
+  display: inline-block;
+}
+
+.steps-text-1{
+    margin-left: 148px;
+}
+
+.step-images .down{
+  position: relative;
+  left: -41px;
+}
+
+.partner .menu .first{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 153, 0);
+}
+
+.partner .dialog :first-child{
+  display: block;
+}

@@ -1,0 +1,1 @@
+a:1:{i:0;a:9:{s:4:"type";s:6:"global";s:7:"sources";a:1:{i:0;s:6:"geomap";}s:5:"alias";s:14:"Demo: 4 Geomap";s:10:"parent_map";s:13:"demo-overview";s:7:"iconset";s:10:"std_medium";s:10:"backend_id";a:1:{i:0;s:4:"demo";}s:11:"source_file";s:14:"demo-locations";s:5:"width";s:3:"800";s:6:"height";s:3:"600";}}

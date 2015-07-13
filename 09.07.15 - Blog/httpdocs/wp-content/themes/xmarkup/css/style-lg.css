@@ -1,0 +1,20 @@
+/*
+*  This file is for large screen. With resolution larger then 1200px
+*/
+
+@media (min-width: 1200px) {
+
+	#menu-header_menu_top {
+		display: block !important;
+	}
+	.contentMess {
+		display: none;
+	}
+	.menu {
+		display: block !important;
+	}
+	#header .wrapper > nav > ul > li {
+		margin-left: 35px;
+	}
+
+}

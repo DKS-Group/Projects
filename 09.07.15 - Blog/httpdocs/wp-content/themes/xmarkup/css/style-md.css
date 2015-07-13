@@ -1,0 +1,162 @@
+/*
+*  This file is for screen with resolution from 992px to 1199px
+*/
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+	#main_content_post {
+		margin: 0 0 30px 0;
+		width: 66%;
+	}
+	.wrapper {
+		width: auto;
+		margin: 0;
+		margin-left: 85px;
+		margin-right: 85px;
+	}
+	.menu {
+		display: block !important;
+	}
+	#main_content_post #main_div {
+		width: 100%;
+	}
+	.subscribe-to-comments {
+		margin-top: -78px;
+	}
+	#header .wrapper > nav > ul > li {
+		margin-left: 5px;
+	}
+	#header .wrapper > nav > ul > li:last-child{
+		margin-right: 0;
+	}
+	#side_bar {
+		margin-right: 0;
+		width: 28%;
+	}
+	#question {
+		float: none;
+		margin-right: 10px;
+	}
+	#rss_div {
+		width: 100%;
+		min-height: 145px;
+	}
+	#subscribe_links {
+		margin: 25px auto;
+		margin-bottom: 0;
+	}
+	#up_button {
+		margin: 0;
+		right: 10px;
+	}
+	#category_line_block_about {
+		display: none;
+	}
+
+	#commentators_block {
+		margin: 0;
+		width: 66%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#comment {
+		width: 100%;
+		/*margin: 10px;*/
+		padding-left: 1%;
+		padding-right: 1%;
+		display: block;
+	}
+	
+	.logged-in-as {
+		margin-bottom: 10px;
+	}
+	.button_txt_smile {
+		top: 0;
+		/*margin-left: 170px;
+		margin-top: 4px;*/
+	}
+	.form-submit {
+		padding-top: 7px;
+	}
+	#new_comment_block input[type="submit"] {
+		margin-left: 66%;
+		width: 31%;
+	}
+	.smileblock {
+		width: 207px;
+	}
+	.vcard {
+		width: 84%;
+	}
+	.listen-left-avatar .avatar {
+		width: 100%;
+		height: auto;
+		padding: 3%;
+	}
+
+	#new_comment_block input[type="text"] {
+		/*width: 86%;
+		margin: 27px 0 0 0 ;*/
+	}
+	.comment-form-author {
+		/*width: 32%;
+		margin-left: 2%;*/
+	}
+	.comment-form-email {
+		/*width: 32%;*/
+	}
+	.comment-form-url {
+		/*width: 32%;*/
+	}
+
+
+
+
+	#index_post_list_div {
+		width: 66%;
+	}
+	#list_of_article > li {
+		width: 100%;
+	}
+	#list_of_article > li > img {
+		margin: 16px;
+		width: 94%;
+	}
+	#list_of_article > li > .article_name {
+		margin: 11px 17px 9px 17px;
+	}
+	#list_of_article > li > .the_excerpt {
+		width: 96%;
+		margin: 0 2% 41px 2%;
+	}
+	#list_of_article > li > .labels {
+		margin-left: 2%;
+		width: 94%;
+	}
+	.labels > a {
+		margin-right: 0;
+	}
+
+
+	#list_of_article > li > img {
+		height: auto;
+	}
+
+
+	#main_content {
+		width: 63%;
+		padding-right: 14px;
+		padding-left: 14px;
+	}
+	.mainphoto-page img {
+		height: auto;
+		width: 100%;
+	}
+
+	body > #content > .wrapper > .navigation {
+		width: auto;
+		margin-left: 20%;
+	}
+
+
+}
