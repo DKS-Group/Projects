@@ -1,0 +1,22 @@
+#toppanel {
+    position: absolute;
+    top:0px;
+    right:100px;
+}
+
+#search {
+    position: absolute;
+    top:0px;
+    right:60px;
+}
+
+#ie7fix {
+    height:1000px;
+}
+
+#right-inner-bar {
+    position:absolute;
+    top:130px;
+    right:50px;
+    width: 250px;
+}

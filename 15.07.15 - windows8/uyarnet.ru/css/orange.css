@@ -1,0 +1,20 @@
+#body {  }
+#toppanel { background: url("../images/toppanel-orange.jpg") no-repeat; }
+
+#topphone b { color: #666666; }
+#topphone em { color: #000; }
+#topphone div { color: #f55c10; }
+
+#mainmenu h1, #mainmenu .h1 { color: #F55916; background: url("../images/mmh1-orange.gif") left center no-repeat; }
+
+#bottom_text #copyright { color: #f55c10; }
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 { color: #f55c10; }
+#content a { color: #f55c10; }
+#content a:hover { color: red; }
+
+#menu ul li a { color: #000; }
+#menu ul li.selected { color: #000; background: #F7F7F7 url("../images/menubg.jpg") center bottom repeat-x; }
+
+#submenu { background: #F7F7F7 url("../images/menubg.jpg") center bottom repeat-x;	}
+#submenu ul li a { color: #000; }

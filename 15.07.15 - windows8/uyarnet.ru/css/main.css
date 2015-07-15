@@ -1,0 +1,25 @@
+#mainmenu { margin:0px 0px 15px 0px;padding-top: 30px; padding-left: 10px; background: url("images/mainmenubg.gif") center center no-repeat; }
+	#mainmenu .panel { float: left; width: 240px; height: 330px; margin-right: 4px; }
+	#mainmenu li { padding-top: 8px; padding-bottom: 8px; }
+	
+	#content { padding: 5px 10px 10px 10px; float: left; width: 700px; font-size: 13px; color: #000000; }
+	#content h1 { padding-left: 30px; background: url("images/arrow1.gif") left center no-repeat; font-size: 16px; height: 21px; }
+	#content h2 { font-size: 14px; }
+	#content h3 { font-size: 13px; }
+	#content h4, #content h5, #content h6 { font-size: 12px; }
+	#content p { font-size: 13px; color: #000000; }
+	#content td { font-size: 13px; color: #000000; }
+	#content a { color: #F87F1B; }
+	#content a:hover { color: #FBC234; }
+
+	#banner1 { float: left; width: 160px; margin-left: 10px; margin-bottom: 10px; }
+	#banner1 > div { margin-bottom: 10px; }
+	#banner1 a { color: #f55c10; }
+	#banner1 a:hover { color: red; }
+		
+	.ln_text { display: block; }
+	#content .ln_text a { color: #000; text-decoration: none; }
+	#content .ln_text a:hover { color: #000; text-decoration: underline; }
+	.ln_title { display: none; }		
+
+	#content .ln_text .h1, #content .ln_text .h2 { color: #f55c10; font-size: 14px; font-weight: bold; margin-bottom: 5px; }

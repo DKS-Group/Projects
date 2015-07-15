@@ -1,0 +1,11 @@
+#ie7fix {
+    min-height:750px!important;
+    height:auto;
+}
+
+#right-inner-bar {
+    position:absolute;
+    top:50px;
+    right:50px;
+    width: 250px;
+}
