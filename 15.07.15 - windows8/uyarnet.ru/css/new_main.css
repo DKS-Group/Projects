@@ -1,0 +1,88 @@
+.header .title .content {
+	margin: 0 10%;
+}
+
+.header .title .slogan,
+.header .title .menu{
+	display: inline-block;
+}
+
+.header .place-right{
+	font-size: 15px;
+}
+
+#body .slogan{
+	padding: 21px;
+}
+
+/*#body .flex-grid,
+#body .flex-grid .h-menu{
+	background-color: orange;
+}*/
+ #body > .flex-grid{
+ 	border-bottom: 2px solid orange;
+ }
+
+ .tile-wide img{
+ 	width: 120%;
+ 	height: 110%;
+ 	position: relative;
+ 	top:-5%;
+}
+
+#topphone div#call_us {
+	margin: 0;
+	  margin-top: 15px;
+}
+
+.logo-tail{
+	/*width: 230px;*/
+	padding: 35px 10px;
+  text-align: center;
+}
+
+.tile-large,
+.center-menu{
+	width: 32%;
+	float: left;
+}
+
+.center-menu{
+	margin-right: 10px;
+}
+
+.tile-wide{
+	width: 100%;
+}
+
+.v-menu{
+	margin-top: 35px;
+  	margin-left: 5px;
+}
+.connect{
+	padding: 49px 12px;
+}
+
+.tile-large.tile-small-y.banner img{
+	max-height: 100%;
+	width: 110%;
+}
+.down{
+	padding-bottom: 70px;
+}
+
+.bottom-menu-wrapper{
+	margin-top: 20px;
+}
+
+body{
+	background-color: darkslateblue;
+}
+
+#body .content.row.flex-just-center{
+	background-color: white;
+}
+
+.bottom-menu-wrapper li a{
+	color: white;
+}
